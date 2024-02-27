@@ -1,5 +1,7 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Checkout Process from Cart,Navigate to the Katalon True Test page and proceed to the cart. Click on the checkout button and verify the Katalon True Test page.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+1,Verify Shop Now button functionality on page Katalontruetest,Navigate to the pageKatalontruetest and click on the Shop Now button. Verify the functionality of the Shop Now button.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+step 2: Click on button 'Shop Now'
+step 3: Take full page screenshot as checkpoint",High
+2,Verify Cart hyperlink functionality on page Katalontruetest,Navigate to the pageKatalontruetest and click on the Cart hyperlink. Verify the functionality of the Cart hyperlink.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
 step 2: Click on link 'Cart'
-step 3: Click on button 'Checkout'
-step 4: Take full page screenshot as checkpoint",Trivial
+step 3: Take full page screenshot as checkpoint",Trivial
