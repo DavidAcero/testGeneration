@@ -1,7 +1,67 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Cart Access on Katalon True Test Page,Navigate to the Katalon True Test page and access the cart by clicking on the hyperlink. Verify that the Katalon True Test page is displayed.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
-step 2: Click on link 'Cart'
-step 3: Take full page screenshot as checkpoint",High
-2,Verify Shopping Access on Katalon True Test Page,Navigate to the Katalon True Test page and proceed to shop by clicking on the 'Shop Now' button. Verify that the Katalon True Test page is displayed.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
-step 2: Click on button 'Shop Now'
-step 3: Take full page screenshot as checkpoint",Trivial
+1,Verify Successful Registration Completion,Navigate to the Katalon True Test page and proceed to register. Complete the registration process and verify the registration completion page.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+step 2: Click on link 'Buy Now' -> Navigate to page 'product/*'
+step 3: Click on button 'Add to Cart'
+step 4: Click on link 'Go to Cart' -> Navigate to page 'cart'
+step 5: Click on link 'Products' -> Navigate to page 'product'
+step 6: Click on link ' Login' -> Navigate to page 'login'
+step 7: Login -> Navigate to page 'register'
+step 8: Login -> Navigate to page 'registerComplete'
+step 9: Take full page screenshot as checkpoint",High
+2,Verify Successful Login,Navigate to the Katalon True Test page and proceed to login. Verify the successful login.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+step 2: Click on link 'Buy Now' -> Navigate to page 'product/*'
+step 3: Click on button 'Add to Cart'
+step 4: Click on link 'Go to Cart' -> Navigate to page 'cart'
+step 5: Click on link 'Products' -> Navigate to page 'product'
+step 6: Click on link ' Login' -> Navigate to page 'login'
+step 7: Login
+step 8: Take full page screenshot as checkpoint",High
+3,Verify Checkout Process,Navigate to the Katalon True Test page and add items to the cart. Proceed to checkout and verify the checkout process.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest/#/shop
+step 2: Click on button 'Add to cart'
+step 3: Click on link 'Cart' -> Navigate to page 'katalonTrueTest/#/cart'
+step 4: Click on button 'Checkout'
+step 5: Click on button 'Checkout'
+step 6: Click on link 'QA-Team-Grocies' -> Navigate to page 'katalonTrueTest/#'
+step 7: Take full page screenshot as checkpoint",High
+4,Verify Product Purchase from Jewelery Category,Navigate to the Katalon True Test page and select a product from the Jewelery category. Add the product to the cart and verify the product page.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+step 2: Click on link 'About' -> Navigate to page 'about'
+step 3: Click on link 'Jewelery' -> Navigate to page 'product'
+step 4: Click on button 'Add to Cart'
+step 5: Click on link 'Buy Now' -> Navigate to page 'product/*'
+step 6: Take full page screenshot as checkpoint",High
+5,Verify Contact Page Navigation,Navigate to the Katalon True Test page and proceed to login. Complete the registration process and navigate to the contact page. Verify the contact page.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+step 2: Click on link 'Products' -> Navigate to page 'product'
+step 3: Click on link ' Login' -> Navigate to page 'login'
+step 4: Login -> Navigate to page 'register'
+step 5: Click on link 'Contact' -> Navigate to page 'contact'
+step 6: Take full page screenshot as checkpoint",High
+6,Verify Successful Login,Navigate to the Katalon True Test page and proceed to the contact page. Enter the required information and verify the successful login.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+step 2: Click on link 'Contact' -> Navigate to page 'contact'
+step 3: Click on input field 'Name'
+step 4: Click on div
+step 5: Click on link ' Login' -> Navigate to page 'login'
+step 6: Take full page screenshot as checkpoint",Medium
+7,Verify Successful Checkout Completion,Navigate to the Katalon True Test page and add items to the cart. Proceed to checkout and complete the checkout process. Verify the successful checkout completion.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+step 2: Click on link 'Buy Now' -> Navigate to page 'product/*'
+step 3: Click on button 'Add to Cart'
+step 4: Click on link 'Go to Cart' -> Navigate to page 'cart'
+step 5: Click on link 'Go to checkout' -> Navigate to page 'checkout'
+step 6: Click on link 'Continue to checkout' -> Navigate to page 'checkoutComplete'
+step 7: Take full page screenshot as checkpoint",Medium
+8,Verify Contact Submission,Navigate to the Katalon True Test page and access the contact page. Submit the contact form and verify the contact submission page.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+step 2: Click on link 'About' -> Navigate to page 'contact'
+step 3: Click on button 'Send' -> Navigate to page 'contactSubmitted'
+step 4: Take full page screenshot as checkpoint",Medium
+9,Verify Successful Product Addition to Cart,Navigate to the Katalon True Test page and proceed to shop. Add items to the cart and verify the successful addition.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest && katalonTrueTest/#
+step 2: Click on button 'Shop Now' -> Navigate to page 'katalonTrueTest/#/shop'
+step 3: Click on button 'Add to cart'
+step 4: Click on link 'Cart' -> Navigate to page 'katalonTrueTest/#/cart'
+step 5: Take full page screenshot as checkpoint",Low
+10,Verify Cart Page Navigation,Navigate to the Katalon True Test page and proceed to register. Access the cart and verify the cart page.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+step 2: Click on link ' Register' -> Navigate to page 'register'
+step 3: Click on link ' Cart (0)' -> Navigate to page 'cart'
+step 4: Take full page screenshot as checkpoint",Low
+11,Verify Successful Registration Completion,Navigate to the Katalon True Test page and proceed to register. Complete the registration process and verify the registration completion page.,"step 1: Navigate to https://davidacero.github.io/katalonTrueTest
+step 2: Click on link ' Register' -> Navigate to page 'register'
+step 3: Click on button 'Register' -> Navigate to page 'registerComplete'
+step 4: Take full page screenshot as checkpoint",Trivial

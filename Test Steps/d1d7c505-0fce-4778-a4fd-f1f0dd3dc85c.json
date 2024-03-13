@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to https://davidacero.github.io/katalonTrueTest",
+        "step 2: Click on link ' Register' -> Navigate to page 'register'",
+        "step 3: Click on button 'Register' -> Navigate to page 'registerComplete'",
+        "step 4: Take full page screenshot as checkpoint"
+    ]
+}

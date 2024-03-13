@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to https://davidacero.github.io/katalonTrueTest",
+        "step 2: Click on link 'About' -> Navigate to page 'about'",
+        "step 3: Click on link 'Jewelery' -> Navigate to page 'product'",
+        "step 4: Click on button 'Add to Cart'",
+        "step 5: Click on link 'Buy Now' -> Navigate to page 'product/*'",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}
